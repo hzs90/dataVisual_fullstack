@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Bar, Pie, Doughnut} from 'react-chartjs-2';
+import {Bar, Doughnut} from 'react-chartjs-2';
 import '../style/Chart.css';
 
 const titles = {
@@ -13,7 +13,6 @@ const titles = {
 class Chart extends Component {
 
   render() {
-		let props = this.props;
 		let chartData = {
 			"labels": [],
 			"datasets": [
